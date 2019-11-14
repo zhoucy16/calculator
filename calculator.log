@@ -1,0 +1,34 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Nov 13 20:47:12 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.12) on 13 November 2019 12:38:39
+os: Darwin-19.0.0 Darwin Kernel Version 19.0.0: Tue Jul 23 01:19:36 PDT 2019; root:xnu-6153.0.103.151.1~4/RELEASE_X86_64
+nodename: buyiyang.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /Users/buyiyang/Documents/201911/calculator
+detected binary path: /Users/buyiyang/uwsgi-2.0.18/uwsgi
+chdir() to .
+your processes number limit is 1392
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./calculator.sock fd 3
+Python version: 2.7.15 (v2.7.15:ca079a3ea3, Apr 29 2018, 20:59:26)  [GCC 4.2.1 Compatible Apple LLVM 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fb33f7004b0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 312480 bytes (305 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb33f7004b0 pid: 9703 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9703)
+spawned uWSGI worker 1 (pid: 9713, cores: 4)
+spawned uWSGI worker 2 (pid: 9714, cores: 4)
+unable to stat() ./reload, events will be triggered as soon as the file is created
+Wed Nov 13 12:47:23 2019 - *** ./reload has been touched... grace them all !!! ***
+...gracefully killing workers...
+Gracefully killing worker 2 (pid: 9714)...
+Gracefully killing worker 1 (pid: 9713)...
